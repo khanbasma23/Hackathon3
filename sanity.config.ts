@@ -9,9 +9,10 @@ import { defineConfig } from 'sanity';
 import { structureTool } from 'sanity/structure';
 
 // Importing environment variables and schema
-import { apiVersion, dataset, projectId } from './src/sanity/env';
-import { schema } from './src/sanity/schemaTypes';
-import { structure } from './src/sanity/structure';
+import { apiVersion, dataset, projectId } from '@/sanity/env';
+';
+import { schema } from '@/sanity/schemaTypes';
+import { structure } from '@/sanity/structure';
 
 export default defineConfig({
   basePath: '/studio',
